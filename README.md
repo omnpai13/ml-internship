@@ -70,3 +70,23 @@ Approach:
 
 Result:  
 The model successfully learns to classify multiple hand gestures with good accuracy.
+
+
+## Task 5: Food Recognition and Calorie Estimation
+
+Objective:
+Recognize food items from images and estimate their calorie content.
+
+Dataset:  
+Food-101 image dataset.
+
+Approach:
+- CNN-based image classification  
+- Robust TensorFlow data pipeline  
+- Handling of corrupted and non-image files  
+- Calorie estimation using predefined food-calorie mapping  
+
+Note:  
+Due to the large size of the dataset and hardware limitations, full training was restricted.
+The implementation demonstrates the complete and correct machine learning workflow.
+
